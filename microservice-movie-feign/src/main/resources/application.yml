@@ -1,0 +1,11 @@
+server:
+  port: 8703
+spring:
+  application:
+    name: microservice-movie
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8801/eureka/
+  instance:
+    prefer-ip-address: true
