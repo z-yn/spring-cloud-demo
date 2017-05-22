@@ -1,5 +1,5 @@
 server:
-  port: 8701
+  port: 8010
 spring:
   application:
     name: microservice-movie
@@ -9,7 +9,3 @@ eureka:
       defaultZone: http://localhost:8801/eureka/
   instance:
     prefer-ip-address: true
-
-#microservice-user:
-#  ribbon:
-#    listOfServers: localhost:8000,localhost:8001
