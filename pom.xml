@@ -17,6 +17,7 @@
         <module>microservice-user</module>
         <module>microservice-movie</module>
         <module>microservice-movie-ribbon</module>
+        <module>context-hierarchy</module>
         <module>microservice-movie-feign</module>
     </modules>
 
