@@ -20,6 +20,7 @@
         <module>context-hierarchy</module>
         <module>microservice-movie-feign</module>
         <module>microservice-movie-ribbon-with-hystrix</module>
+        <module>microservice-gateway-zuul</module>
     </modules>
 
 </project>

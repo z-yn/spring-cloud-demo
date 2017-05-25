@@ -9,6 +9,7 @@ eureka:
       defaultZone: http://localhost:8801/eureka/
   instance:
     prefer-ip-address: true
-zuul:
+
+endpoints:
   routes:
-    microservice-user: /user/**
+    enable: true
