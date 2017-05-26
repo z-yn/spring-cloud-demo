@@ -1,5 +1,5 @@
 server:
-  port: 8707
+  port: 8708
 spring:
   application:
     name: microservice-user
